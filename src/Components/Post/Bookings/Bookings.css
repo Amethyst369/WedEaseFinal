@@ -1,0 +1,90 @@
+/* Resetting default margin and padding */
+
+
+
+
+/* Styling form section */
+.venue-order-bk {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.container-bk {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.formbk {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formbk label {
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 5px;
+}
+
+
+.formbk input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.formbk input[type="number"] {
+    margin-top: 1%;
+}
+
+.formbk input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    margin-top: 30px;
+}
+
+.formbk input[type="submit"] {
+   
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+ .formbk  input[type="submit"]:hover {
+    background-color: #555;
+   
+}
+
+/* Styling footer */
+
+/* New styles for image */
+.venue-image-bk {
+    text-align: center;
+    margin-bottom: 0px;
+    width: 900px;
+    margin-top: 20px;
+}
+
+.venue-image-bk img {
+    max-width: 100%;
+    height: 10%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

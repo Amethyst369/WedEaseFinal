@@ -1,0 +1,50 @@
+
+/* Sorter Section */
+.sorter-section {
+    /* background-color: #cdcdcd; */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width:30%; /* Set to 80% of the parent's width */
+    max-width: 99%; /* Maximum width */
+    margin: 0 auto; /* Centering the box horizontally */
+    backdrop-filter: blur(50px); /* Blur the background */
+    margin-top: 30px;
+    
+   
+  }
+  
+  
+  .sorter-title {
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .input-field {
+    padding: 10px;
+    width: 90%; /* Full width input field */
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    background-color: #d5d5d5;
+  }
+  

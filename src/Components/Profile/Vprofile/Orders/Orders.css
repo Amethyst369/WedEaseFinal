@@ -1,0 +1,82 @@
+body{
+background-color: white;
+font-family: Arial, sans-serif;
+
+}
+.ordersmain{
+   background-color: rgb(255, 255, 255);
+   margin-left: 20%;
+   margin-top: 5%;
+   border-radius: 20px;
+    width: 60%;
+    box-shadow: #000000;
+
+}
+.orders-container-os {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 17px;
+}
+.order-item-os :hover{
+ background-color: #ccc;
+ border-radius: 40px;
+ width: 80%;
+ 
+}
+.h1-os {
+    text-align: center;
+    padding-top: 30px;
+    color: #fe5029f1;
+    font-family:  ProximaNova, arial, Helvetica Neue, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .orders-container-os {
+        padding: 10px;
+    }
+    .order-item-os {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+    .profile-photo-os {
+        margin-bottom: 5px;
+    }
+}
+
+.order-item-os {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.left-content-os {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo-os {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+    background-image: url('images/1600w-WAhofEY5L1U.jpg');
+}
+
+.user-name-os {
+    margin: 0;
+    font-weight: bold;
+}
+
+.order-date-os {
+    margin: 0;
+    color: rgba(35, 35, 35, 0.793);
+}

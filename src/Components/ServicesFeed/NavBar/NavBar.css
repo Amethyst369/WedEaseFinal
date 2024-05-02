@@ -1,0 +1,135 @@
+ .navbarnn { 
+  background-color: #626562;
+  font-family: 'Times New Roman', Times, serif;
+  height: 55px;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  gap: 7%;
+  align-items: center;
+  max-width: 100%; /* Maximum width */
+  /* margin: 0 auto; Centering the bar horizontally 
+}  
+
+.logo {
+  font-size: 1.5rem;
+  margin-right: auto; /* Pushes the logo to the right side of the flex container */
+}
+
+.sortern{
+  margin-right:10px ;
+  cursor: pointer;
+}
+.sortern:hover{
+  font-style: oblique;
+}
+
+.search-barn {
+  padding: 10px; /* Increase padding for better appearance */
+  width: 90%; /* Adjusted width of the search bar */
+  max-width: 850px; /* Maximum width of the search bar */
+  min-width: 200px; /* Set a minimum width for smaller screens */
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+  font-size: 1rem;
+  color: #feffd6;
+  margin-right: 10px; /* Small gap between search bar and nav-button */
+ 
+}
+
+.nav-buttonsn {
+  display: flex;
+  align-items: center;
+}
+
+
+.nav-buttonn {
+  background-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+  
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 10px; /* Small gap between logo and nav-button */
+}
+
+
+
+/* ....................Drop down test...................... */
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  margin-left: 10%;
+  cursor: pointer;
+  
+}
+
+.dropbtn:hover {
+  background-color: #5c715e;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+
+  transform: translate(-180px,0);
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  color:#ffffff;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Links inside the dropdown */
+
+
+/* Change color of dropdown links on hover */
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for the dropdown items */
+.dropdown-item {
+  padding: 5px;
+  
+  
+  text-align: center;
+  color:   #5c715e;
+  
+  
+  
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for dropdown items */
+
+.nav-buttonnd{
+  text-align: center;
+  display: flex;
+  color:    #5c715e;
+  background-color: #ffffff;
+  align-items: center;
+}

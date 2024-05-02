@@ -1,0 +1,283 @@
+/* Profile container */
+.profilecd {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(132, 40, 40, 0.1);
+}
+
+/* Profile header */
+.profile-headercd {
+  background-color:  #e3cb6a;
+  color: #ffffff;
+  padding: 20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  text-align: center;
+}
+
+.profile-headercd h2 {
+  margin: 0;
+  color: white;
+  font-size: 32px;
+}
+
+/* Profile body */
+.profile-bodycd {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Profile picture */
+.profile-picturecd {
+  flex: 0 0 200px;
+  margin: 0 20px 20px 0;
+  border: 5px solid #ffffff;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.profile-picturecd img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-picturecd:hover img {
+  transform: scale(1.1);
+}
+
+/* Edit profile button */
+.edit-profile-btncd {
+  background-color:  #e3cb6a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.edit-profile-btncd:hover {
+  background-color:  #e3cb6a;
+}
+
+/* Profile section */
+.profile-sectioncd {
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* Section heading */
+.profile-sectioncd h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #e3cb6a;
+}
+
+/* List items */
+.profile-sectioncd ul {
+  list-style-type: none;
+  padding: 0;
+}
+.profile-detailscd{
+  color: #000000;
+  
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  
+
+
+}
+
+.paracd{
+  color: #c6a41a;
+  display: inline-flex;
+   
+ 
+  
+}
+
+
+.profile-detailscd p{
+  margin-bottom: 10px;
+  font-weight: 600;
+  
+}
+
+.profile-sectioncd ul li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-sectioncd ul li:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.profile-sectioncd ul li .feature-name {
+  font-weight: bold;
+  color:  #e3cb6a;
+}
+
+.profile-sectioncd ul li .feature-value {
+  color:  #e3cb6a;
+}
+
+/* Stunning designs for each section */
+.profile-orderscd,
+.profile-wishlistcd,
+.profile-reviewscd,
+.profile-settingscd,
+.profile-subscriptionscd,
+.profile-addressescd,
+.profile-payment-methodscd,
+.profile-notificationscd,
+.profile-preferencescd {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.profile-orderscd h3,
+.profile-wishlistcd h3,
+.profile-reviewscd h3,
+.profile-settingscd h3,
+.profile-subscriptionscd h3,
+.profile-addressescd h3,
+.profile-payment-methodscd h3,
+.profile-notificationscd h3,
+.profile-preferencescd h3 {
+  font-size: 28px;
+  color:  #e3cb6a;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile-orderscd ul,
+.profile-wishlistcd ul,
+.profile-addressescd ul,
+.profile-payment-methodscd ul {
+  padding-left: 20px;
+}
+
+.profile-orderscd ul li,
+.profile-wishlistcd ul li,
+.profile-addressescd ul li,
+.profile-payment-methodscd ul li {
+  margin-bottom: 10px;
+}
+
+.profile-orderscd ul li:last-child,
+.profile-wishlistcd ul li:last-child,
+.profile-addressescd ul li:last-child,
+.profile-payment-methodscd ul li:last-child {
+  margin-bottom: 0;
+}
+
+.profile-orderscd ul li .feature-name,
+.profile-wishlistcd ul li .feature-name,
+.profile-addressescd ul li .feature-name,
+.profile-payment-methodscd ul li .feature-name {
+  font-weight: bold;
+  color: #333333;
+}
+
+.profile-orderscd ul li .feature-value,
+.profile-wishlistcd ul li .feature-value,
+.profile-addressescd ul li .feature-value,
+.profile-payment-methodscd ul li .feature-value {
+  color: #555555;
+}
+
+.profile-reviewscd p {
+  font-style: italic;
+  color: #777777;
+}
+
+.profile-settingscd button {
+  background-color:  #e3cb6a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.profile-settingscd button:hover {
+  background-color: #0056b3;
+}
+
+.profile-notificationscd p,
+.profile-preferencescd p {
+  color: #777777;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-notificationscd label,
+.profile-preferencescd label {
+  font-size: 16px;
+  color: #777777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-notificationscd label input,
+.profile-preferencescd label input {
+  margin-right: 10px;
+  cursor: pointer;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid  #e3cb6a;
+  outline: none;
+}
+
+.profile-notificationscd label input:checked::before,
+.profile-preferencescd label input:checked::before {
+  content: '\2713';
+  font-size: 16px;
+  color:  #e3cb6a;
+  line-height: 20px;
+  text-align: center;
+}
+
+.profile-notificationscd label span,
+.profile-preferencescd label span {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Animation */
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,434 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.image_for_show_more_button{
+  background-image: url('https://cdn0.weddingwire.in/home/16/original/1400/jpg/fotoHome_16.webp');
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+.contents_in_the_image{
+  background-color: white;
+  width: 550px;
+  height: 500px;
+  border-radius: 0px 250px 550px 0px;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+
+}
+.div_for_first_image_and_the_pic{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.to_align_the_text{
+  padding-top: 32%;
+  padding-right: 50px;
+  font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+padding-right: 20px;
+}
+.to_show_more_text{
+  width: 120px;
+  
+  margin-top: 20px;
+  font-size: 2.6vh;
+  padding-top: 1px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fb1b26;
+  border: solid #fb1b26;
+  border-radius: 10px;
+  border-width: 2px;
+  margin-left: 36%;
+}
+.to_show_more_text:hover{
+  color: #a32027;
+  cursor: pointer;
+  border: solid #a32027;
+  width: 120px;
+  
+  margin-top: 20px;
+  font-size: 2.6vh;
+  padding-top: 1px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #a32027;
+  border: solid #a32027;
+  border-radius: 10px;
+  border-width: 2px;
+  margin-left: 36%;
+  
+}
+
+.catogories_for_home_page h1{
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding-left: 4%;
+ margin-bottom: 0px
+
+}
+.catogories_for_home_page h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  padding-left:4% ;
+  padding-top: -10px;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.604);
+}
+.catogories_first_row{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.wedding_venues{
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.033);
+    
+    margin-left: 4%;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+    background-image: url('https://www.weddingwire.in/assets/img/home/toolCard_venues.jpg');
+    height: 180px;
+    width: 45%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    
+    background-size: 60%
+}
+.wedding_venues:hover{
+  scale: 1.01;
+}
+.text_on_venues{
+  width: 50%;
+  height: 182px;
+  background-color: rgb(255, 255, 255);
+ margin-left:40%;
+ border-radius: 140px;
+ text-align: right;
+}
+
+.text_on_venues h3{
+  margin-top: 0px;
+  padding-left: 16%;
+  padding-top: 10%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-bottom: 0px;
+  font-weight: 545;
+}
+.text_on_venues h4{
+  font-weight: lighter;
+  margin: 0px;
+  padding-left: 16%;
+  padding-top: 2%;
+}
+.text_on_venues h6{
+  color: #fb1b26;
+  font-weight: lighter;
+  font-size:16px ;
+  
+  margin: 0;
+  padding-top: 5px;
+}
+
+.text_on_venues h6:hover{
+  color: #a32027;
+}
+.vendors_catogory_in_home_page{
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.033);
+    margin-right: 4%;
+    
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+    background-image: url('https://www.weddingwire.in/assets/img/home/toolCard_vendors.jpg');
+    height: 180px;
+    width: 45%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    
+    background-size: 60%
+}
+.vendors_catogory_in_home_page:hover{
+  scale: 1.01;
+}
+
+.catogories_row_two{
+  display: flex;
+  justify-content: space-between;
+}
+
+.your_free_wedding_website{
+  margin-top: 26px;
+  margin-left: 4%;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+  height: 120px;
+  width: 29%;
+
+  border-style: solid;
+border-color: rgba(0, 0, 0, 0.033);
+  
+  transition: 0.3s;
+  background-image: url('https://cdn1.weddingwire.in/assets/svg/original/illustration/websites.svg');
+  background-repeat: no-repeat;
+  background-size: 13%
+  
+}
+.your_free_wedding_website:hover{
+  cursor: pointer;
+  scale: 1.01;
+}
+.your_free_wedding_website h4{
+  padding-left: 28%;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px;
+  padding-top: 8%;
+}
+.your_free_wedding_website h5{
+  padding-left: 28%;
+  font-weight: 450;
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 1%;
+}
+.your_free_wedding_website h6{
+  padding-left: 28%;
+  font-weight: 450;
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 1%;
+  color: #fb1b26;
+  transition: 0.3s;
+}
+
+.your_free_wedding_website h6:hover{
+  color: #a32027;
+}
+
+.infinite_inspiration{
+  margin-top: 26px;
+  
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+  height: 120px;
+  width:29%;
+
+  border-style: solid;
+border-color: rgba(0, 0, 0, 0.033);
+  
+  transition: 0.3s;
+  background-image: url('https://cdn1.weddingwire.in/assets/svg/original/illustration/notebook.svg');
+  background-repeat: no-repeat;
+  background-size: 13%
+}
+
+
+.infinite_inspiration:hover{
+  cursor: pointer;
+  scale: 1.01;
+
+}
+.infinite_inspiration h4{
+  padding-left: 28%;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px;
+  padding-top: 5%;
+}
+
+.infinite_inspiration h5{
+  padding-left: 28%;
+  font-weight: 450;
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 1%;
+}
+.infinite_inspiration h6{
+  padding-left: 28%;
+  font-weight: 450;
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 1%;
+  color: #fb1b26;
+  transition: 0.3s;
+
+}
+.infinite_inspiration h6:hover{
+  
+  color: #a32027;
+}
+
+.planning_tools_in_row_two{
+  margin-top: 26px;
+  margin-right: 4%;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+  height: 120px;
+  width:29%;
+
+  border-style: solid;
+border-color: rgba(0, 0, 0, 0.033);
+  
+  transition: 0.3s;
+  background-image: url('https://cdn1.weddingwire.in/assets/svg/original/illustration/lightbulb.svg');
+  background-repeat: no-repeat;
+  background-size: 13%
+}
+
+.planning_tools_in_row_two:hover{
+  cursor: pointer;
+  scale: 1.01;
+}
+
+.planning_tools_in_row_two h4{
+  padding-left: 28%;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px;
+  padding-top: 5%;
+}
+
+.planning_tools_in_row_two h5{
+  padding-left: 28%;
+  font-weight: 450;
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 1%;
+}
+
+.planning_tools_in_row_two h6{
+  padding-left: 28%;
+  font-weight: 450;
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 1%;
+  color: #fb1b26;
+  transition: 0.3s;
+}
+
+.planning_tools_in_row_two h6:hover{
+  color: #a32027;
+}
+
+.show_more_catogories_button{
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+ 
+  color: #fb1b26;
+  font-size: 2.6vh;
+  font-weight: lighter;
+}
+.show_more_catogory_text{
+  border: solid #fb1b26;
+  border-width: 2px;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: .1vh;
+  padding-bottom: .1vh;
+  border-radius: 30px;
+  transition: 0.3s;
+
+}
+.show_more_catogory_text:hover{
+  color: #ffffff;
+  border: solid #a32027;
+  background-color: #a32026;
+  border-width: 2px;
+ 
+  cursor: pointer
+}
+
+.insightful_inspirations1{
+  margin-top: 10%;
+  height:550px;
+  background-repeat:no-repeat;
+  padding-left: 550px;
+ 
+  background-image:url('https://cdn0.weddingwire.in/vendor/9588/3_2/960/jpeg/wedding-decorators-royal-events-and-wedding-planner-stage-decor-3_15_419588-167938172975239.webp') ;
+  background-size: 60%
+}
+.text_content_insightful_inspiration{
+  height: 550px;
+  background-color: white;
+ 
+  border-radius: 550px;
+}
+.text_content_insightful_inspiration h1{
+  padding-left:20%;
+  padding-top: 14%;
+  font-style: italic;
+  font-weight: 500;
+}
+.text_content_insightful_inspiration h2{
+  padding-left:20%;
+  font-style: italic;
+  font-weight: 500;
+}
+.text_content_insightful_inspiration ul{
+  color: #fb1b26;
+
+  padding-left:20%;
+}
+.text_content_insightful_inspiration li{
+  padding-top: 10px;
+}
+.text_content_insightful_inspiration li:hover{
+  scale: 1.01;
+  cursor: pointer;
+}
+.background_of_the_footer{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.foreground_of_the_footer{
+  width: 97%;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.079);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row1_in_foreground_of_the_footer{
+  margin-left: 15%;
+}
+.row3_in_foreground_of_the_footet{
+  margin-right: 15%;
+
+}
+.foreground_of_the_footer h1{
+  color: #111111;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.foreground_of_the_footer h5{
+  color: #1111117f;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.foreground_of_the_footer h5:hover{
+  color: #a32027;
+  cursor: pointer;
+}

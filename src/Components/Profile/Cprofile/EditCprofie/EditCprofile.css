@@ -1,0 +1,104 @@
+/* Base styles */
+.edit-profile-containerep {
+       width: 70%;; /* Increased width for a more spacious feel */
+       margin-top: 50px;
+       margin-left: 12%;
+    padding: 40px; /* Increased padding for better spacing */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increased box shadow for depth */
+  }
+  
+  .edit-profile-titleep {
+    text-align: center;
+    font-size: 28px; /* Slightly increased font size for emphasis */
+    margin-bottom: 30px; /* Increased margin bottom for better separation */
+    color: #333;
+  }
+  
+  .edit-profile-formep {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+  }
+  
+  .form-groupep {
+    margin-bottom: 30px;
+   
+    width: 100%; /* Increased margin bottom for better spacing */
+  }
+  
+  .form-groupep label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-groupep input,
+  .form-groupep textarea,
+  .form-groupep select {
+    width: 100%;
+    padding: 15px; /* Increased padding for better input field size */
+    border: 1px solid #ccc;
+    border-radius: 30px; /* Slightly increased border radius for softer edges */
+    font-size: 18px; /* Increased font size for better readability */
+  }
+  
+  .form-groupep textarea {
+    height: 120px; /* Increased height for the description textarea */
+    resize: vertical;
+  }
+  
+  .submit-btnep {
+    background-color: #e3cb6a;;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px; /* Increased padding for better button size */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    
+  }
+  
+  .submit-btnep:hover {
+    background-color: #a58c26;;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 992px) {
+    .edit-profile-containerep {
+      max-width: 700px; /* Adjusted max width for smaller screens */
+      padding: 30px; /* Adjusted padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .edit-profile-containerep {
+      max-width: 600px; /* Adjusted max width for even smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .edit-profile-containerep {
+      max-width: 450px; /* Adjusted max width for very small screens */
+      padding: 20px; /* Adjusted padding for very small screens */
+    }
+  
+    .edit-profile-titleep {
+      font-size: 24px; /* Reduced font size for smaller screens */
+      margin-bottom: 25px; /* Reduced margin bottom for smaller screens */
+    }
+  
+    .form-groupep input,
+    .form-groupep textarea,
+    .form-groupep select {
+      padding: 12px; /* Reduced padding for smaller screens */
+      font-size: 16px; /* Reduced font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .edit-profile-titleep {
+      font-size: 20px; /* Further reduced font size for very small screens */
+    }
+  }
+  

@@ -1,0 +1,167 @@
+.page {
+  background-color: #fefdfd;
+  width: 100%;
+  min-height: 100vh; /* Adjusted for responsiveness */
+}
+
+.navbar {
+  background-color: rgb(206, 206, 206);
+  height: 3.5em;
+  position: relative;
+}
+
+/* Adjusted for responsiveness */
+.rightside form {
+  width: 90%;
+  height: 30%;
+  background-color: rgb(206, 206, 206);
+  box-shadow: none;
+}
+
+.logopic {
+  height: 2.2em;
+  margin: 0.5%;
+  padding-left: 1.5%;
+}
+
+.logotext {
+  position: absolute;
+  top: 11px;
+  left: 75px;
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+.textbal {
+  color: #fae452;
+  position: absolute;
+  top: 30px;
+  left: 75px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.images {
+  background: rgb(255, 254, 254);
+  height: 60vh; /* Adjusted for responsiveness */
+  width: 100%; /* Adjusted for responsiveness */
+  margin-top: 0.06em;
+}
+
+/* Adjusted for responsiveness */
+.leftside {
+  width: 90%;
+  background-image: url('src/Components/Post/Images/aimg5.jpg');
+  opacity: 90%;
+  height: 300px; /* Adjusted for responsiveness */
+  float: left;
+}
+
+/* Adjusted for responsiveness */
+.rightside {
+  width: 90%;
+  height: auto; /* Adjusted for responsiveness */
+  background: #cacaca;
+  float: right;
+  border-top-right-radius: 30px;
+  margin-top: 2em;
+}
+
+.text {
+  padding-top: 2%;
+  margin-left: 30%;
+  font-weight: 600;
+  font-size: 22px;
+  color: rgb(253, 253, 254);
+  font-family: "poppins";
+  position: relative;
+}
+
+.lowtext {
+  margin-top: 0%;
+  color: #ffffff94;
+  margin-left: 35%;
+}
+
+.textbox,
+.password {
+  /* Adjusted for responsiveness */
+  width: 90%;
+  margin-left: 5%;
+}
+
+.submit {
+  /* Adjusted for responsiveness */
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+
+
+.signup {
+  color: #a9920f;
+  text-decoration: none;
+}
+
+.signup:hover {
+  color: #f87903;
+}
+
+.donthaveawedeaseaccount {
+  color: #fff;
+  margin-top: 5%; /* Adjusted for responsiveness */
+  padding-left: 3%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+
+/* Media queries for responsiveness */
+@media only screen and (min-width: 768px) {
+  .leftside {
+      width: 30%;
+      height: 650px;
+      margin-top: 33px;
+      margin-left: 4.5%;
+  }
+
+  .rightside {
+      width: 60%;
+      margin-right:4.5%;
+      height: 650px;
+
+  }
+
+  .forgotpass {
+      margin-left: 77%;
+  }
+}
+
+
+@media only screen and (min-width: 500px) {
+  .leftside {
+      width: 30%;
+      height: 650px;
+      margin-top: 33px;
+      margin-left: 4.5%;
+  }
+
+  .rightside {
+      width: 60%;
+      margin-right:4.5%;
+      height: 650px;
+
+  }
+  .rightside form{
+    width: 80%;
+    margin-right:4.5%;
+
+}
+
+  .forgotpass {
+      margin-left: 77%;
+  }
+}
+

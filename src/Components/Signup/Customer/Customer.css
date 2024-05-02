@@ -1,0 +1,89 @@
+
+   
+.signup-box {
+  
+  justify-content: center;
+  align-items: center;
+ 
+   /* Just for demonstration, adjust as needed */
+}
+
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+   
+  .formcl {
+    width: 50%;
+    align-self: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    
+  }
+  
+  .formcl label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.501);
+  }
+  
+  .formcl input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    
+  }
+  .formcl input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 35px;
+    border: none;
+    background-image: linear-gradient(to right, #FD61A2 , #FF95A5);
+    color: rgba(255, 255, 255,90%);
+    font-weight: bold;
+    transition: transform 0.3s;
+
+    font-size: 18px;
+
+
+  }
+ 
+  .formcl input[type="button"]:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, #f64d93 , #fe778b);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .formcl p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 20px;
+
+  }
+  .para-2 a {
+    color: #f64d93;
+
+  }
+  label{
+    
+    color: rgba(0, 0, 0, 0.501);
+   
+
+  }

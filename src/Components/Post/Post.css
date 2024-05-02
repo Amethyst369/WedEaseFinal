@@ -1,0 +1,158 @@
+.product-cardpp{
+    display: flex;
+    width: 95%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: rgb(247, 245, 223);
+   /* background-color: rgb(0, 0, 0); */
+    color: #000000;
+  }
+  
+  .product-imagespp {
+    width: 60%;
+    padding: 20px;
+    
+  
+  .product-imagespp .main-imagepp{
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  }
+  
+  .product-imagespp .main-imagepp img {
+    width: 100%;
+    height: auto;
+   border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .sub-imagespp {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .sub-imagespp img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .sub-imagespp img:hover {
+    transform: scale(1.1);
+  }
+  
+  .product-detailspp {
+    flex: 1;
+    padding: 20px;
+
+    
+  }
+  
+  .product-namepp {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .product-descriptionpp {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(68, 68, 68);
+  }
+  
+  .product-pricepp {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .product-ratingpp {
+    color: #ffd700;
+    font-size: 42px; /* Increased font size */
+    margin-bottom: 20px; /* Increased margin for better spacing */
+   
+  }
+  
+  .product-ratingpp i {
+    margin-right: 5px;
+  }
+  
+  .contactspp {
+    color: #000000;
+    margin-bottom: 20px;
+    display: inline-flex;
+    font-weight: bold;
+
+    font-size: 25px;
+  }
+  
+  .buttonspp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px; /* Keeping button size unchanged */
+    border: none;
+    border-radius: 20px; /* Keeping button size unchanged */
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18px; /* Keeping font size unchanged */
+    background-color: #e3cb6a; /* Same color for all buttons */
+    color: #ffffff; /* Text color */
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    filter: brightness(90%);
+  }
+  
+  .book-now,
+  .chat-now,
+  .add-to-cart {
+    flex: 1; /* Equal width for all buttons */
+  }
+  
+  .book-now:hover,
+  .chat-now:hover,
+  .add-to-cart:hover {
+    filter: brightness(120%);
+  }
+  
+  @media (max-width: 768px) {
+    .product-cardpp {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .product-imagespp,
+    .product-detailspp {
+      width: 100%;
+    }
+  
+    .sub-imagespp {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .sub-imagespp img {
+      width: calc(33.33% - 10px);
+      margin-bottom: 10px;
+    }
+  
+    .buttonspp {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    button {
+      flex: 1;
+      margin-right: 5px; /* Add margin between buttons */
+    }
+  }
+  
